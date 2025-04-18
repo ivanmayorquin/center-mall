@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Explora Center Mall NY, el centro comercial digital con tiendas, servicios y promociones exclusivas en todo el estado de New York. Visítanos online hoy.">
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <title>Center Mall NY | Tu Centro Comercial Digital en New York</title>
+  
+    <!-- Ícono de WhatsApp de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+    <style>
+      .footer-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: yellow;
+        color: #000000;
+        padding: 10px 20px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+  
+      .footer-button:hover {
+        background-color: #25D366;
+        color: #000;
+      }
+  
+      .footer-button i {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+    <h1>Center Mall NY</h1>
+    <!--<p>Discover local stores, services, and exclusive promotions across New York State.</p>-->
+    <a href="directorio/directorio.html">DIRECTORY</a>
+  </div>
+  
+  <div class="footer-fixed">
+    <a href="https://wa.me/17186787899?text=Hello%20Ivan%2C%20I%20just%20visited%20your%20website%20and%20I%27m%20interested%20in%20a%20digital%20presence." target="_blank" class="footer-button">
+      <i class="fab fa-whatsapp"></i> Would you like a website like this? Contact me on WhatsApp.
+    </a>
+  </div>
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then((registration) => {
+          console.log('🔒 Service Worker registrado con éxito:', registration.scope);
+        })
+        .catch((error) => {
+          console.log('❌ Error al registrar Service Worker:', error);
+        });
+    }
+  </script>
+</body>
+</html>

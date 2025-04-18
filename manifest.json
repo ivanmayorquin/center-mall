@@ -1,0 +1,22 @@
+{
+  "name": "Center Mall Digital",
+  "short_name": "Center Mall",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Directorio digital rápido y moderno de Center Mall",
+  "icons": [
+    {
+      "src": "img/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

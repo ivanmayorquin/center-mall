@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: beige;
+  color: #222;
+  line-height: 1.4;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+.negocio {
+  background-color: beige;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.negocio .imagenes {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0.5rem;
+}
+
+.negocio .imagenes img {
+  width: 32%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.negocio .imagenes img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+
+.negocio .info {
+  padding: 1rem;
+  line-height: 1.4;
+}
+
+.negocio .info h2 {
+  color: #bfa03a;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.negocio .info p {
+  margin-bottom: 1rem;
+  color: #444;
+  text-align: left;
+}
+
+.negocio .info ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.negocio .info li {
+  margin-bottom: 0.5rem;
+}
+
+  .negocio .info h2 {
+    font-size: 1.3rem;
+  }
+
+.siguiente-seccion {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn-siguiente {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-siguiente:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+.flecha {
+  margin-left: 8px;
+  font-size: 18px;
+}
+
+ul li i {
+  color: #d4a017; /* Un dorado suave que va con el estilo panadería */
+  margin-right: 8px;
+}
+
+ul li a:hover {
+  color: #d4a017;
+  text-decoration: underline;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.back-button {
+  padding: 12px 28px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* =================== MEDIA QUERIES =================== */
+
+/* Para pantallas grandes (desktops grandes) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .footer-button {
+    font-size: 16px;
+    padding: 15px 30px;
+  }
+}
+
+/* Laptops y tablets grandes */
+@media (max-width: 1199px) and (min-width: 769px) {
+  .container {
+    padding: 15px;
+  }
+}
+
+/* Tablets y celulares grandes */
+@media (max-width: 768px) and (min-width: 481px) {
+  .footer-button {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+}
+
+/* Celulares pequeños */
+@media (max-width: 480px) {
+  .footer-button {
+    font-size: 12px;
+    padding: 8px 15px;
+  }
+
+  .header {
+    font-size: 18px;
+  }
+}
+
+.sms-link {
+  display: inline-block;
+  background-color: #fff8e1; /* fondo crema suave */
+  color: #a67c00; /* dorado oscuro */
+  padding: 6px 14px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 6px;
+}
+
+.sms-link:hover {
+  background-color: #ffecb3; /* más brillante al pasar el cursor */
+  transform: scale(1.05);
+}
+
+.swiper-container {
+  width: 100%;
+  max-width: 320px;
+  margin: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
