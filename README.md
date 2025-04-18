@@ -23,19 +23,7 @@ Center Mall NY es un centro comercial virtual donde cada negocio tiene su propio
 
 ## 🧭 Diagrama de flujo (estructura del sitio)
 
-```mermaid
-graph TD
-    Visitante --> CenterMallNY
-    CenterMallNY --> Categorías
-    Categorías --> Restaurante
-    Categorías --> Orquesta
-    Categorías --> DJ
-    Restaurante --> Perfil
-    Orquesta --> Perfil
-    DJ --> Perfil
-    Perfil --> Contacto
-    Contacto --> WhatsApp
-```
+![Diagrama de flujo](diagrama-center-mall.png)
 
 ---
 
