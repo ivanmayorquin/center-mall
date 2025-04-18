@@ -1,6 +1,6 @@
 # 🏬 Center Mall NY
 
-**Proyecto web desarrollado por [Ivan Mayorquin](https://ivanmayorquin.com) para conectar negocios locales con clientes de forma digital.**
+**Proyecto web desarrollado por [Mayorking Design](https://mayorkingdesign.com) para conectar negocios locales con clientes de forma digital.**
 
 ---
 
@@ -23,7 +23,7 @@ Center Mall NY es un centro comercial virtual donde cada negocio tiene su propio
 
 ## 🧭 Diagrama de flujo (estructura del sitio)
 
-![Diagrama de flujo](diagrama-center-mall.png)
+![Diagrama de flujo](mermaid/diagrama-center-mall.png)
 
 ---
 
@@ -45,9 +45,9 @@ style.css          → Estilos globales
 👨‍💻 **Iván A. Mayorquin**  
 Diseñador gráfico, desarrollador web y fundador de Mayorking Design.
 
-📫 [mayorking1960@gmail.com](mailto:mayorking1960@gmail.com)
+📫 [mayorkingdesign@gmail.com](mailto:mayorkingdesign@gmail.com)
 
-🌐 [ivanmayorquin.com](https://ivanmayorquin.com)
+🌐 [mayorkingdesign.com](https://mayorkingdesign.com)
 
 ---
 
